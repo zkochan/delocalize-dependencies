@@ -1,0 +1,42 @@
+{
+  "name": "delocalize-dependencies",
+  "version": "0.1.0",
+  "description": "Convert local dependencies to semver dependencies.",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && mos t && node test.js | tap-spec",
+    "md": "mos"
+  },
+  "files": [
+    "index.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zkochan/delocalize-dependencies.git"
+  },
+  "keywords": [
+    "local",
+    "dependencies"
+  ],
+  "author": "Zoltan Kochan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zkochan/delocalize-dependencies/issues"
+  },
+  "homepage": "https://github.com/zkochan/delocalize-dependencies#readme",
+  "devDependencies": {
+    "mos": "^1.3.1",
+    "mos-plugin-readme": "^1.0.4",
+    "standard": "^8.1.0",
+    "tap-spec": "^4.1.1",
+    "tape": "^4.6.0"
+  },
+  "mos": {
+    "plugins": [
+      "readme"
+    ],
+    "installation": {
+      "useShortAlias": true
+    }
+  }
+}
