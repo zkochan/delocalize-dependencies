@@ -12,6 +12,22 @@
 npm i -S delocalize-dependencies
 ```
 
+## CLI Usage
+
+In the folder with the `package.json` file, run:
+
+```
+delocalize-dependencies
+```
+
+### API Usage
+
+```js
+const delocalizeDeps = require('delocalize-dependencies')
+
+delocalizeDeps({pkg, pkgDir})
+```
+
 ## License
 
 [MIT](./LICENSE) © Zoltan Kochan

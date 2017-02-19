@@ -3,11 +3,13 @@
   "version": "0.1.0",
   "description": "Convert local dependencies to semver dependencies.",
   "main": "index.js",
+  "bin": "lib/cli.js",
   "scripts": {
     "test": "standard && mos t && node test.js | tap-spec",
     "md": "mos"
   },
   "files": [
+    "lib",
     "index.js"
   ],
   "repository": {
@@ -38,5 +40,9 @@
     "installation": {
       "useShortAlias": true
     }
+  },
+  "dependencies": {
+    "read-pkg": "^2.0.0",
+    "write-pkg": "^2.0.0"
   }
 }
