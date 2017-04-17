@@ -43,6 +43,6 @@
   },
   "dependencies": {
     "read-pkg": "^2.0.0",
-    "write-pkg": "^2.1.0"
+    "write-pkg": "^3.0.1"
   }
 }
