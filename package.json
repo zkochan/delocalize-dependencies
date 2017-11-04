@@ -42,7 +42,7 @@
     }
   },
   "dependencies": {
-    "read-pkg": "^2.0.0",
+    "read-pkg": "^3.0.0",
     "write-pkg": "^3.0.1"
   }
 }
